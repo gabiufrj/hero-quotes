@@ -10,6 +10,8 @@ app.service('InfoService', function () {
 		'Esse joga',
 		'Marca recuado aí',
 		'2 a 1 é difícil de virar',
+		'Fala baixo, Thiago!',
+		'Mato Grosso do Sul ou do Norte?'
 	];
 	
 	this.selectedImage = undefined;
@@ -34,6 +36,10 @@ app.service('InfoService', function () {
 		
 		this.selectedQuote = this.quotes[i];
 		return this.selectedQuote;
+	}
+	
+	this.getAllQuotes = function () {
+		return this.quotes;
 	}
 
 	this.getImage = function () {

@@ -25,6 +25,13 @@
 				
 					<div class="button-container">
 						<button class="btn btn-primary" ng-click="generate()">Generate!</button>
+						<button class="btn btn-warning" ng-click="toggleShowQuotes()">Show/Hide quotes</button>
+					</div>
+					
+					<div class="quotes-container" ng-show="showAllQuotes">
+						<pre>
+							{{ allQuotes | json }}
+						</pre>
 					</div>
 				</div>
 			</div>

@@ -9,5 +9,11 @@ app.controller('MainController', function ($scope, InfoService) {
 		$scope.image = InfoService.getImage();
 		$scope.quote = InfoService.getQuote();
 	}
+	
+	$scope.allQuotes = InfoService.getAllQuotes();
 
+	$scope.showAllQuotes = false;
+	$scope.toggleShowQuotes = function () {
+		$scope.showAllQuotes = !$scope.showAllQuotes;
+	}
 });
