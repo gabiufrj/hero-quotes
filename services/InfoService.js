@@ -11,7 +11,12 @@ app.service('InfoService', function () {
 		'Marca recuado aí',
 		'2 a 1 é difícil de virar',
 		'Fala baixo, Thiago!',
-		'Mato Grosso do Sul ou do Norte?'
+		'Mato Grosso do Sul ou do Norte?',
+		"Vira 180º pra esquerda",
+		"Tá ali a tua direita-esquerda",
+		"Tá vendo ali onde eu tô mirando?",
+		"Te viuuuuuu Fanelliiiii",
+		"Tô tomando tiruuuuuuuuuu",
 	];
 	
 	this.selectedImage = undefined;
